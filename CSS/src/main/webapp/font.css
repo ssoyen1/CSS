@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+body {
+font-family: 'Noto Sans KR', sans-serif;}
+
+h2 {font-family: 'Noto Serif KR', serif;}
+/*
+ ctrl+shift+/ = 주석
+section {font-size: 20px;}  */
+
+
+ /* 1. font-size 글자 크기 */
+.or {color: orange;}
+.bl {color: blue;}
+
+.fs01 {font-size:16px; }
+.fs02 {font-size:12px; }
+.fs03 {font-size:20px; }
+.fs04 {font-size: 1em;}
+.fs05 {font-size: 0.75em;}
+.fs06 {font-size: 1.25em;}
+.fs07 {font-size: 1rem;}
+.fs08 {font-size: 0.75rem;}
+.fs09 {font-size: 1.25rem;}
+
+ /* 2. font-weight 글자 두께 */
+.fw01 {font-weight: 100;}
+.fw02 {font-weight: 200;}
+.fw03 {font-weight: 300;}
+.fw04 {font-weight: 400;}
+.fw05 {font-weight: 500;}
+.fw06 {font-weight: 600;}
+.fw07 {font-weight: 700;}
+.fw08 {font-weight: 800;}
+.fw09 {font-weight: 900;}
+.fw10 {font-weight: bold;}
+.fw11 {font-weight: normal;
+color: red;}
+.fw12 {font-weight: normal;}
+
+
+ /* 3.font-style 글자 기울기 */
+.fst01 {font-style: italic;}
+.fst02 {font-style: oblique;}
+.fst03 {font-style: normal;}
+
+
+
+ /* 4. font-family 서체(글꼴) */
+.ffm01 {
+font-family: 
+"Georgia", "Garamond",
+ "Times New Roman", serif; }
+
+
+.ffm02 {
+font-family: "Verdana",
+ "Helvetica", "Arial",
+  sans-serif; 	
+}
+
+.ffm03 {
+font-family: "Lucida Console",
+ "Courier New", monospace; }
+
+.nps {
+font-family: 'Nanum Pen Script', cursive;}
+
+/* 
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Noto Serif KR', serif;
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
