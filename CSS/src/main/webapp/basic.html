@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>css basic</title>
+<link href="basic.css" rel="stylesheet">
+<style type="text/css">
+ h1 {background-color: #025;
+ border-left:12px solid #08a; 
+ padding-left:12px;
+ text-transform:capitalize;
+ color: #fff; }
+
+ h2 {background-color:#cff ;
+ border-left:10px solid;
+ border-bottom:2px solid;
+ padding-left:10px;
+ color:#025; }
+ 
+ #ex {color: #008;}
+ #in {color: #080;}
+ #inl {color: red;}
+ 
+ .mb20 {margin-bottom: 16px;} 
+ .fs20 {font-size: 20px;}
+ .pk {color: pink;}
+ .ol {color: olive;}
+ .or {color: orange;}
+ .sk {color: skyblue;}
+ .nv {color: navy;}
+ .bw {color: brown;}
+</style>
+</head>
+<body>
+<h1>css basic</h1>
+ <p style="background-color: #ccc;width: 300px;white-space: pre;">
+   css 문법
+     
+     선택자 {속성:속성값;}
+ </p>
+<h2>css 적용방식 3가지</h2>
+ <ul>
+  <li id="ex" class="mb20">External CSS
+   - 스타일소스를 외부파일(abc.css)에 따로 만들고 웹페이지와 연결하여 적용.<br>
+   (head안에 &lt;link href="abc.css" rel="stylesheet"&gt;)
+  </li>
+  <li id="in" class="mb20">Internal CSS
+    - 스타일소스를 웹페이지의 head안에 style태그로 적용.
+     (&lt;style type="text/css"&gt;  ... &lt;/style&gt;)<br>
+   해당 페이지에만 스타일 적용됨.
+  </li>
+  <li id="inl">Inline CSS - 스타일소스를 body안의 해당 태그 뒤에 (tag style="속성:속성값;") 바로 적용. <br>
+   소스가 길어지고 통일된 스타일 적용이 어렵고 유지보수 불리함.<br>
+   CSS적용 우선 순위가 가장 높음, body만 수정가능한 상황에 적용.
+  </li>
+</ul>
+
+<h2>css 대표 선택자 3가지</h2>
+ <ul>
+  <li class="mb20">
+   <b class="fs20 bw">tag선택자</b> - tag그대로 선택자로 활용. 강제, 자동 적용</li>
+  <li class="mb20">
+   <b class="fs20 or">id선택자</b> - tag에 id를 추가하고 <span class="or">#id</span>형식으로 활용. 스타일 내용을 한번만 활용 가능. <br>
+     구조적인 목적 </li>
+    <!-- ctrl + shift + / = 주석 단축키 --> 
+    <!-- span 태그는 글자를 묶어서 스타일 적용 용도 -->
+  <li>
+   <b class="fs20 ol">class선택자</b> - tag에 class를 추가하고 <span class="ol">.class</span>형식으로 활용. 
+    스타일 내용을 중복, 조합 적용 가능. <br> 디자인적인 목적</li>
+ </ul>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
