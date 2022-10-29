@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>text- 로 시작하는 글자속성들</title>
+<link href="style.css" rel="stylesheet">
+<link href="text.css" rel="stylesheet">
+</head>
+<body>
+<h1>text- 로 시작하는 글자속성들</h1>
+<ul>
+ <li>text-align: ; 글자 수평 정렬
+     (영역내의 내용이 ~로 정렬 됨)
+  <ol class="fs14">
+   <li>left 기본값. 왼쪽 정렬</li>
+   <li>center 중앙 정렬</li>
+   <li>right 우측 정렬</li>
+   <li>justify 양끝정렬</li>
+  </ol>
+ </li>
+ <li>text-decoration: ; 글자의 줄들
+  <ol class="fs14">
+   <li>overline 글자의 윗줄</li>   
+   <li>line-through 글자의 가로지르는 줄(취소선)</li>
+   <li>underline 글자의 밑줄</li>   
+   <li>none 링크 걸린 글자의 밑줄 제거</li>
+  </ol>
+ </li>
+ <li>text-indent: ; 글자 들여쓰기</li>
+ <li>text-transform: ; (영문)글자 대소문자 변형</li>
+ <li>text-shadow: ; 글자의 그림자</li>
+ <li>text-overflow: ; 영역 밖의 글자 처리</li>
+</ul>
+
+<section id="sec01">
+ <h2>text-align: ; 글자 수평 정렬</h2>
+
+ <p class="ta01 brdr">text-align: left; 글자 수평 정렬</p>
+ <p class="ta02 brdr">text-align: center; 글자 수평 정렬</p>
+ <p class="ta03 brdr">text-align: right; 글자 수평 정렬</p>
+ <p class="ta04 brdr">text-align: justify; 글자 수평 정렬 <br> Lorem ipsum dolor sit amet,
+			consectetur adipiscing elit. Nullam sit amet nibh dolor. Pellentesque
+			cursus ac justo sed convallis. Sed quis sapien eu leo mattis viverra.
+			Donec mattis purus a urna rutrum, eu ornare sem porttitor. Vivamus
+			ultrices viverra nulla, a interdum massa bibendum aliquet. Vestibulum
+			lobortis quis est a placerat. Ut at justo eu mauris pretium
+			sollicitudin. Sed lobortis euismod massa, ac laoreet orci blandit in.
+			Etiam vitae nisl ultricies dui viverra venenatis vitae id magna. Nunc
+			volutpat orci sed sagittis ultricies. Cras iaculis vitae elit nec
+			scelerisque. Nulla facilisi. Aenean finibus, augue in mollis congue,
+			augue velit ultricies enim, ac dictum neque odio et nulla. Ut semper
+			consequat nisl, in volutpat eros euismod vel. In pellentesque arcu
+			magna, nec ultrices erat consectetur sit amet. Donec volutpat odio
+			lacus, in tempus orci pretium ac.
+		</p> 
+ <p class="ta04">때 써 이 위에 헤는 같이 있습니다. 못 걱정도 별이 내 어머니, 봅니다. 불러 소녀들의 언덕 계십니다. 풀이 애기 보고,
+			하나에 않은 슬퍼하는 계십니다. 별들을 하나에 한 봅니다. 별에도 불러 당신은 아침이 딴은 봅니다. 북간도에 하나에 오는 둘
+			오면 까닭입니다. 이름과, 사랑과 패, 흙으로 내 별 남은 릴케 벌써 까닭입니다. 멀리 파란 새겨지는 가난한 애기 까닭이요,
+			없이 하나에 있습니다.</p>		
+ <hr>
+ <input type="text" value="left" style="text-align: left;">
+ <input type="text" value="center" style="text-align: center;">
+ <input type="text" value="right" style="text-align: right;">	
+</section>
+
+<section id="sec02">
+ <h2>text-decoration 글자의 줄들 </h2>
+
+ <p class="tde01">text-decoration: overline; 글자의 윗줄</p>
+ <p class="tde02">text-decoration: line-through;
+                       글자의 가로지르는 줄(취소선)</p>
+ <p class="tde03">text-decoration: underline; 글자의 밑줄</p>
+ <p>text-
+  <a href="#" class="tde04">decoration</a>: none; 링크 걸린 글자의 밑줄 제거</p>
+</section>
+
+<section id="sec03">
+ <h2>text-indent: ; 글자 들여쓰기  </h2>
+
+ <p class="tin01 brdr01">text-indent: 10px; 글자 들여쓰기</p>
+ <p class="tin02 brdr01">text-indent: 1em; 글자 들여쓰기</p>
+ <p class="tin03 brdr01">text-indent: 10%; 글자 들여쓰기</p>
+ <p class="tin04 brdr01">text-indent: -50px; 
+          글자 들여쓰기(음수값 가능)</p>
+ <p class="tin05 brdr01">text-indent: 2em; 글자 들여쓰기</p>
+ <p class="tin06 brdr01">text-indent: 3em; <br>
+  글자 들여쓰기 <br> 첫 줄에만 적용 됨  </p>
+</section>
+
+
+<section id="sec04">
+ <h2>text-transform: ; (영문)글자 대소문자 변형</h2>
+
+ <p class="ttr01">teXT-traNSform: nOne; 기본값. 대소문자 변형 없음</p>
+ <p class="ttr02">teXT-traNSform: upPercase; 전부 대문자로 변형</p>
+ <p class="ttr03">teXT-traNSform: lOWercase; 전부 소문자로 변형</p>
+ <p class="ttr04">teXT-traNSform: caPItalize; 첫글자만 대문자로 변형</p>
+</section>
+
+<section id="sec05">
+ <h2>text-shadow:Xn Yn blur color ; 글자의 그림자 </h2>
+  <p>그림자의 가로거리 세로거리 퍼짐 색상의 순 <br>
+   (거리값은 음수 가능) </p>
+ <p class="tsh01 sh">text-shadow: 2px 3px 6px #333; 글자의 그림자</p>
+ <p class="tsh02 sh">text-shadow: -2px -3px 4px #333; 글자의 그림자</p>
+ <p class="tsh03 sh">text-shadow: 2px 3px 4px #333; 글자의 그림자</p>
+ <p class="tsh04 sh">text-shadow 글자의 그림자</p>
+ <p class="tsh05 sh bg">text-shadow: 0 0 20px #cfffef; 글자의 그림자</p>
+ <p class="tsh06 sh bg">text-shadow: 0 0 12px #fc32de; 글자의 그림자</p>
+ <p class="tsh07 sh bg">text-shadow:-2px -2px 6px #fc32de,
+ 2px 2px 6px #00ff40 ; 글자의 그림자</p>
+ <p class="tsh08 sh">text-shadow 글자의 그림자</p>
+</section> 
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
