@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.mg {border:1px solid;
+	margin: 30px;}
+
+ /* 1. margin의 방향별 지정 */
+li {border:1px solid #900;} 
+ 
+#mg-t {margin-top: 50px; }
+#mg-r {margin-right: 50px;
+text-align: right;}
+#mg-b {margin-bottom:50px; }
+#mg-l {margin-left: 50px;}
+
+
+ /* 2. margin의 값 갯수별 지정 */
+#mg-n01 {margin: 3em;}
+#mg-n02 {margin: 1em 20%;}
+#mg-n03 {margin: 1em 20% 0;}
+#mg-n04 {margin:0 10% 50px 30% ;}
+
+
+.mg-in01 {margin: 2em;}
+.mg-in02 {margin: 3em 1em;}
+.mg-in03 {margin-left: 1em;}
+b {border: 1px solid #980;}
+
+
+
+
+.cnt {background-color: #d59;
+text-align: center;
+width: 50%;
+
+white-space: pre
+ /* pre tag 효과 */;
+margin-left: auto;
+margin-right: auto; 
+/* 또는
+margin: n auto; */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
