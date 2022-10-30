@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>padding</title>
+<link href="style.css" rel="stylesheet">
+<link href="padding.css" rel="stylesheet">
+</head>
+<body>
+<h1>padding</h1>
+ <p class="pd">테두리(border) 기준 요소의 
+ 내부에 적용되는 여백</p>
+
+<h2>padding의 방향별 지정법</h2>
+<ul>
+ <li id="pd-t">padding-top:n; 위에만 적용</li>
+ <li id="pd-r">padding-right:n; 우측에만 적용</li>
+ <li id="pd-b">padding-bottom:n; 아래만 적용</li>
+ <li id="pd-l">padding-left:n; 좌측에만 적용</li>
+</ul>
+
+<h2>padding의 값 갯수별 지정법</h2>
+<ul>
+ <li id="pd-n01">padding:n; 양사방 동일값 적용</li>
+ <li id="pd-n02">padding:n n; 상하, 좌우 순으로 적용</li>
+ <li id="pd-n03">padding:n n n; 상, 좌우, 하 순으로 적용</li>
+ <li id="pd-n04">padding : n n n n ; 상, 우, 하, 좌 
+ 순으로 적용</li>
+</ul>
+
+<section id="sec01">
+ <h2>input type="text"에 적용 </h2>
+ <input type="text" value="padding: 0.5em;" class="in-p01">
+ <input type="text" value="padding:0.8em 0.5em;" class="in-p02">
+ <input type="text" value="padding-left: 1em;" class="in-p03">
+ <input type="text" value="padding" class="in-p04">
+
+ <hr>
+ <h2>img에 적용 </h2>
+ <img alt="cat" src="img/cat.jpg" class="ph01">
+ <img alt="cat" src="img/cat.jpg" class="ph02">
+ <img alt="cat" src="img/cat.jpg" class="ph03">
+ <img alt="cat" src="img/cat.jpg" class="ph04">
+ <p>border-radius:n; 모서리 라운딩 <br>
+ box-shadow:n n n n; 영역의 그림자</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+

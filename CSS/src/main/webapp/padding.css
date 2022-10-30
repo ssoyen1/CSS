@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+.pd {border: 1px solid;
+     padding: 10px;}
+.pd:hover {padding: 0px;}
+
+
+li {border: 1px solid #009;}
+
+ /* 1. padding의 방향별 지정 */
+#pd-t {padding-top: 20px;}
+#pd-r {text-align: right;
+padding-right: 20px;}
+
+#pd-b {padding-bottom: 20px;}
+#pd-l {padding-left: 20px;}
+
+
+ /* 2. padding의 값 갯수별 지정 */
+#pd-n01 {padding: 1.5em;}
+
+#pd-n02 {padding: 1.5em 10%;}
+
+#pd-n03 {padding: 1.5em 20% 1em;}
+
+#pd-n04 {padding: 1em 30% 10px 5%;}
+
+
+
+.in-p01 {padding: 0.5em;}
+.in-p02 {padding:0.8em 0.5em;}
+.in-p03 {padding-left: 1em;}
+
+img {margin: 3em;
+width: 400px;}
+
+.ph01 {border: 20px solid #a60; 
+padding: 50px;}
+
+.ph02 {border: 1px solid #333;
+padding: 24px 24px 170px;
+border-radius: 10px; }
+
+.ph03 {border: 1px solid #333;
+padding: 24px 24px 170px; 
+box-shadow: 1px 2px 6px #333;}
+
+.ph04 {border: 30px ridge #a33;
+border-radius: 50%;
+padding: 50px;}
+
+.ph04:hover {
+border-radius: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
