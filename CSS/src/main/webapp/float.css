@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#sec01, #sec02 {
+overflow: hidden
+/* float으로 빠져나간 자식요소를
+   감싸기 위함 */;
+float: left;
+width: 40%;}
+
+.clear {clear: both
+/* float으로 빈공간을 메우기위해
+밀고올라간 요소를 제자리로 */;}
+
+#sec01>p>img {float: left;}
+
+#sec02 img {float: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
