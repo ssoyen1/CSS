@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+body {/* background-color: #adefff; */
+background-image: url("img/tea.jpg")
+   , url("img/ice.jpg");
+background-repeat: no-repeat, repeat-x;
+/* background-size: cover; */
+background-position:
+ center center, 0 100%;
+background-attachment: scroll, fixed;
+}
+
+ol {margin-bottom:5em;
+	line-height: 2 /* 행간(줄간격) */;
+	font-size: 1.5em;}
+
+li {margin: 1.5em 1em;}
+
+.ch-t {background-color: #9fc;
+ color: #f00;
+ font-size: 1.5em;}
+
+.s-h {display: none;
+background-color:#9fc; }
+
+#p01:hover>.s-h {
+ display: inline;}
+
+
+ /* 특정영역스크롤바 */
+
+.sc, .fx, .lc {/* 
+ 요소들을 한번에 같은 스타일로 적용 가능한
+  그룹선택자. ,로 추가함 */
+ background-color: #f4a767;	
+ background-image:url("img/high.jpg");
+ margin-right:2em;
+ padding: 1em;
+ width: 400px;
+ height: 300px;
+ overflow: auto;
+ display: inline-block;
+ font-size: 1.5em;
+ text-shadow: 0 0 2px #fff;}
+
+.sc {background-attachment: scroll;}
+.fx {background-attachment: fixed;}
+.lc {background-attachment: local;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
